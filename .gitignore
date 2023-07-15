@@ -1,0 +1,6 @@
+api-key*
+.env
+.venv
+client.properties
+__pycache__/
+getting_started.ini
