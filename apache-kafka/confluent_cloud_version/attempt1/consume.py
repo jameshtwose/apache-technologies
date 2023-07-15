@@ -6,7 +6,7 @@ props["group.id"] = "python-group-1"
 props["auto.offset.reset"] = "earliest"
 
 consumer = Consumer(props)
-consumer.subscribe(["my-topic"])
+consumer.subscribe(["topic_0"])
 try:
     while True:
         msg = consumer.poll(1.0)
