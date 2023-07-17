@@ -4,5 +4,5 @@ This is a simple example of how to use the Confluent version of the Kafka client
 ### Prerequisites
 * A Confluent Cloud account
 
-### Setup
-* Create a new Confluent Cloud cluster
+## BE AWARE
+- `avro_producer.py` and `avro_consumer.py` are not connected. They are just examples of how to use the Confluent Cloud version of the Kafka client with Avro.
